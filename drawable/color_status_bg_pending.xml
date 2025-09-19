@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle">
+    <solid android:color="@color/color_status_bg_pending"
+        tools:ignore="ResourceCycle" />
+    <corners android:radius="12dp"/>
+</shape>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This is a vector drawable for the "KitchenKart" app logo.
+    It combines a stylized shopping cart with a flame, representing food delivery.
+    Place this file in your 'res/drawable/' directory.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <!-- The path for the shopping cart outline -->
+    <path
+        android:fillColor="#3D5A80"
+        android:pathData="M11,9L11,6h2v3h3v2h-3v3h-2v-3h-3v-2h3zM18,18c-1.1,0 -1.99,0.9 -1.99,2S16.9,22 18,22s2,-0.9 2,-2S19.1,18 18,18zM7,18c-1.1,0 -1.99,0.9 -1.99,2S5.9,22 7,22s2,-0.9 2,-2S8.1,18 7,18zM7.17,14L18.4,14c0.8,0 1.5,-0.48 1.84,-1.23L22.68,5H5.21L4.25,3H1V5h2.17l1.78,9z" />
+
+</vector>
