@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870161579976",
+    "project_id": "kitchenkart-d7dcc",
+    "storage_bucket": "kitchenkart-d7dcc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870161579976:android:67dd7547d3b1615b02cafd",
+        "android_client_info": {
+          "package_name": "com.PROJECT.kitchenkart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbk2fXgeYFUcCt2Yv8cO0KuuXaELbww2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

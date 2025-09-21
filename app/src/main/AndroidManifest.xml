@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES"
+        tools:ignore="SelectedPhotoAccess" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VIDEO"
+        tools:ignore="SelectedPhotoAccess" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".KitchenKartApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KitchenKart"
+        tools:ignore="Instantiatable">
+        <!-- Removed the HomeActivity declaration as it does not exist -->
+        <activity
+            android:name=".Activities.ChatListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ProductDetailActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="CLOUDINARY_URL"
+            android:value="cloudinary://134611849111475:z_mvEl8W-E6pKRjun8TGQ6BSmX4@dflqwbglc" />
+
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.BuyerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SellerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ManageProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ViewOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SalesAnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SellerSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AddProductActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

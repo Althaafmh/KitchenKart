@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a Vector Drawable for a breakfast icon (fried egg). -->
+<!-- Place this file in your 'res/drawable/' directory. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M12,2A10,10 0,0,0 2,12a10,10 0,0,0 10,10a10,10 0,0,0 10,-10A10,10 0,0,0 12,2zM12,16a4,4 0,1,1 0,-8a4,4 0,0,1 0,8z" />
+
+</vector>

@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC" /> <corners android:radius="4dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_restaurant_menu" android:gravity="center"
+        android:width="48dp" android:height="48dp" />
+</layer-list>

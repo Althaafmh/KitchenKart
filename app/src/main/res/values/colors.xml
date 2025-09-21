@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+
+    <color name="colorPrimary">#3D5A80</color>       <color name="colorPrimaryVariant">#294060</color> <color name="colorOnPrimary">#FFFFFF</color>     <color name="colorSecondary">#98C1D9</color>     <color name="colorSecondaryVariant">#80B2CF</color> <color name="colorOnSecondary">#000000</color>   <color name="colorBackground">#F5F5F5</color>      <color name="colorOnBackground">#FF1C1B1F</color> <color name="colorSurface">#FFFFFFFF</color>      <color name="colorOnSurface">#212121</color>     <color name="colorError">#D32F2F</color>   <color name="colorOnError">#FFFFFF</color> <color name="colorSuccess">#4CAF50</color> <color name="colorAccent">#EE6C4D</color>  <color name="colorDivider">#E0E0E0</color> <color name="color_text_primary">#FF212121</color>  <color name="color_text_secondary">#FF757575</color> <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="color_status_pending">#FFA000</color>
+    <color name="color_status_bg_pending">#FFF3E0</color>
+    <color name="color_status_accepted">#388E3C</color>
+    <color name="color_status_bg_accepted">#E8F5E9</color>
+    <color name="color_status_delivered">#1976D2</color>
+    <color name="color_status_bg_delivered">#E3F2FD</color>
+    <color name="color_status_cancelled">#D32F2F</color>
+    <color name="color_status_bg_cancelled">#FFEBEE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorOnSurfaceVariant">#C0CA33</color>
+</resources>
