@@ -178,6 +178,6 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        // Refresh data when activity resumes
+       
     }
 }
