@@ -25,10 +25,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * ChatActivity handles real-time communication between a buyer and a seller.
- * @noinspection ALL
- */
+
 public class ChatActivity extends AppCompatActivity {
 
     public static final String EXTRA_RECEIVER_ID = "extra_receiver_id";
