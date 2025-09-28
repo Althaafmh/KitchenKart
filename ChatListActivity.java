@@ -6,10 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import com.PROJECT.kitchenkart.Fragments.ChatFragment;
 import com.PROJECT.kitchenkart.R;
 
-/**
- * A simple Activity to host the ChatFragment, displaying a list of recent chats.
- * @noinspection ALL
- */
+
 public class    ChatListActivity extends AppCompatActivity {
 
     @Override
@@ -24,7 +21,7 @@ public class    ChatListActivity extends AppCompatActivity {
             getSupportActionBar().setTitle("Messages");
         }
 
-        // Load the ChatFragment into the activity's layout
+      
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new ChatFragment())
