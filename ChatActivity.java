@@ -88,7 +88,7 @@ public class ChatActivity extends AppCompatActivity {
     private void setupChat() {
         String senderId = currentUser.getUid();
 
-        // Chat ID එක නිර්මාණය කිරීම
+       
         if (senderId.compareTo(receiverId) > 0) {
             chatId = senderId + "_" + receiverId;
         } else {
